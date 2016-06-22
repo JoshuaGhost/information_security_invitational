@@ -1,0 +1,1 @@
+copy objchk_wxp_x86\i386\passthru.sys passthru.sys

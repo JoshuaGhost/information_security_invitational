@@ -1,0 +1,737 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Defender.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.chs\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Defender.ico"
+IDR_DEFENDTYPE          ICON    DISCARDABLE     "res\\DefenderDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_HOTBAR              BITMAP  MOVEABLE PURE   "res\\toolbar1.bmp"
+IDB_TOOLBAR_HOT         BITMAP  MOVEABLE PURE   "res\\TOOLBAR_HOT.bmp"
+IDB_TOOLBAR_COLD        BITMAP  MOVEABLE PURE   "res\\TOOLBAR_COLD.bmp"
+IDB_LOADCODE            BITMAP  MOVEABLE PURE   "res\\backimg_loadcode.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_HOTBAR TOOLBAR MOVEABLE PURE  76, 68
+BEGIN
+    BUTTON      IDM_PROTECT
+    BUTTON      IDM_SET
+    BUTTON      IDM_LOG
+    BUTTON      IDM_HELP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU DISCARDABLE 
+BEGIN
+    POPUP "Main"
+    BEGIN
+        MENUITEM "保护",                        IDM_PROTECT
+        MENUITEM "设置",                        IDM_SET
+        MENUITEM "日志",                        IDM_LOG
+        MENUITEM "求助",                        IDM_HELP
+    END
+END
+
+IDR_PROCESS MENU DISCARDABLE 
+BEGIN
+    POPUP "进程管理"
+    BEGIN
+        MENUITEM "刷新",                        IDM_PROCESS_REFRESH
+        MENUITEM "结束进程",                    IDM_PROCESS_END
+        MENUITEM "模块信息",                    IDM_PROCESS_MODULE
+    END
+END
+
+IDR_CONNECT MENU DISCARDABLE 
+BEGIN
+    POPUP "网络连接 "
+    BEGIN
+        MENUITEM "刷新 ",                       IDM_CONNECT_REFRESH
+        MENUITEM "结束进程 ",                   IDM_CONNECT_END
+    END
+END
+
+IDR_NETLOG MENU DISCARDABLE 
+BEGIN
+    POPUP "网络攻击日志"
+    BEGIN
+        MENUITEM "刷新",                        IDM_ATTACKLOG_REFRESH
+        MENUITEM "保存",                        IDM_ATTACKLOG_SAVE
+        MENUITEM "删除所有日志",                IDM_ATTACKLOG_CLEARALL
+    END
+END
+
+IDR_TRAY MENU DISCARDABLE 
+BEGIN
+    POPUP "托盘菜单"
+    BEGIN
+        MENUITEM "帮助",                        IDM_HELP
+        MENUITEM SEPARATOR
+        MENUITEM "隐藏主界面",                  IDR_OPEN
+        MENUITEM "退出",                        IDR_EXIT
+    END
+END
+
+IDR_SERVICE MENU DISCARDABLE 
+BEGIN
+    POPUP "Win32服务"
+    BEGIN
+        MENUITEM "刷新",                        IDM_SERVICE_REFRESH
+        MENUITEM "",                            ID_MENUITEM32834
+        MENUITEM "启动",                        IDM_SERVICE_START
+        MENUITEM "停止",                        IDM_SERVICE_STOP
+        MENUITEM "",                            ID_MENUITEM32815
+        MENUITEM "自动",                        IDM_SERVICE_AUTO
+        MENUITEM "手动",                        IDM_SERVICE_MANUAL
+        MENUITEM "禁止",                        IDM_SERVICE_DISABLE
+    END
+END
+
+IDR_AUTORUN MENU DISCARDABLE 
+BEGIN
+    POPUP "开机自启动项管理"
+    BEGIN
+        MENUITEM "刷新 ",                       IDM_AUTORUN_REFRESH
+        MENUITEM "删除",                        IDM_AUTORUN_DELETE
+    END
+END
+
+IDR_HOSTS MENU DISCARDABLE 
+BEGIN
+    POPUP "Hosts文件 "
+    BEGIN
+        MENUITEM "新建 ",                       IDM_HOSTS_NEW
+        MENUITEM "修改",                        IDM_HOSTS_CHANGE
+        MENUITEM "删除",                        IDM_HOSTS_DELETE
+        MENUITEM "",                            ID_MENUITEM32822
+        MENUITEM "刷新",                        IDM_HOSTS_REFRESH
+    END
+END
+
+IDR_PORTLIST MENU DISCARDABLE 
+BEGIN
+    POPUP "端口列表"
+    BEGIN
+        MENUITEM "删除",                        IDM_DEL
+    END
+END
+
+IDR_IPLIST MENU DISCARDABLE 
+BEGIN
+    POPUP "IP列表"
+    BEGIN
+        MENUITEM "新建",                        IDM_NEWHOST
+        MENUITEM "删除",                        IDM_DELHOST
+    END
+END
+
+IDR_MESLIST MENU DISCARDABLE 
+BEGIN
+    POPUP "实时信息显示"
+    BEGIN
+        MENUITEM "显示网络监控信息",            IDM_NETSHOW
+        MENUITEM "显示主机监控信息",            IDM_HOSTSHOW
+        MENUITEM "",                            ID_MENUITEM32829
+        MENUITEM "删除",                        IDM_DELETE
+        MENUITEM "删除所有",                    IDM_DELETEALL
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 智能主动防御系统"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "智能主动防御系统 1.0 版",IDC_STATIC,40,13,119,8,
+                    SS_NOPREFIX
+    LTEXT           "西安电子科技大学 版权所有 (C) 2008",IDC_STATIC,40,28,
+                    119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_PROTECT_SET DIALOG DISCARDABLE  0, 0, 501, 301
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "设置"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "智能防火墙设置",IDC_STATIC,7,7,487,89
+    CONTROL         "启用数据包过滤",IDC_PACKETFILTER_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,24,67,10
+    CONTROL         "启用防ARP欺骗",IDC_ANTIARP_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,44,65,10
+    CONTROL         "禁止Ping入",IDC_ICMPFILTER_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,64,54,10
+    PUSHBUTTON      "应用",IDC_APPLY,363,79,50,14
+    PUSHBUTTON      "高级设置",IDC_ADVANCESETTING,428,79,50,14
+    CONTROL         "伪装所有不存活动主机",IDC_PLAYALLROLE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,81,97,10
+    PUSHBUTTON      "白名单管理",IDC_WHITE_BUTTON,428,170,54,14
+    PUSHBUTTON      "保护名单管理",IDC_PROTECT_BUTTON,363,171,54,14
+    GROUPBOX        "主机防御设置",IDC_STATIC,7,106,487,84
+    CONTROL         "开启主机监控",IDC_BEGIN_BUTTON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,128,60,10
+END
+
+IDD_BASIC_PROCESS DIALOGEX 0, 0, 500, 300
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "进程管理"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_PROCESS_LIST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,7,7,486,286,WS_EX_CLIENTEDGE
+END
+
+IDD_BASIC_CONNECT DIALOGEX 0, 0, 500, 300
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "网络连接"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_CONNECT_LIST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,7,7,486,286,WS_EX_CLIENTEDGE
+END
+
+IDD_BASIC_LOCAL DIALOG DISCARDABLE  0, 0, 500, 300
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "实时保护"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "当前网络接口：",IDC_STATIC,10,21,55,8
+    COMBOBOX        IDC_ADAPTER_LIST,67,19,223,78,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "接口信息",IDC_STATIC,8,42,281,100
+    LTEXT           "物理地址：",IDC_STATIC,20,55,41,8
+    LTEXT           "逻辑地址：",IDC_STATIC,20,72,40,8
+    LTEXT           "子网掩码：",IDC_STATIC,20,90,42,8
+    LTEXT           "网关地址：",IDC_STATIC,20,106,41,8
+    LTEXT           "",IDC_STATIC,210,128,8,8
+    LTEXT           "网关MAC：",IDC_STATIC,20,122,37,8
+    LTEXT           "00-00-00-00-00-00",IDC_MACADDR,61,55,73,8
+    LTEXT           "0.0.0.0",IDC_IPADDR,61,71,64,8
+    LTEXT           "0.0.0.0",IDC_NETMASK,62,88,58,8
+    LTEXT           "0.0.0.0",IDC_NETGATE,62,107,61,8
+    LTEXT           "00-00-00-00-00-00",IDC_NETGATEMAC,62,123,73,8
+    GROUPBOX        "系统状态",IDC_STATIC,297,14,198,128
+    LTEXT           "实时信息：",IDC_STATIC,8,151,47,8
+    CONTROL         "List1",IDC_MESLIST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,7,166,488,118
+    LTEXT           "数据包过滤:",IDC_STATIC,308,36,52,8
+    LTEXT           "已开启",IDC_PACKETFILTER,368,35,52,8
+    LTEXT           "ARP防火墙:",IDC_STATIC,308,55,52,8
+    LTEXT           "已开启",IDC_ARPFILTER,368,54,52,8
+    LTEXT           "禁止PING入:",IDC_STATIC,308,74,52,8
+    LTEXT           "已开启",IDC_ICMPFILTER,368,74,52,8
+    LTEXT           "入侵特征码数:",IDC_STATIC,308,93,52,8
+    LTEXT           "0",IDC_SCCOUNT,368,93,52,8
+    LTEXT           "已过滤数据包:",IDC_STATIC,308,112,52,8
+    LTEXT           "0",IDC_PCOUNT,368,112,62,8
+END
+
+IDD_PROTECT_NETLOG DIALOG DISCARDABLE  0, 0, 500, 300
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "日志"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_ATTACKLOG_LIST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,7,7,486,286
+END
+
+IDD_LOADCODE DIALOG DISCARDABLE  0, 0, 201, 127
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "智能主动防御系统-初始化"
+FONT 10, "System"
+BEGIN
+    LTEXT           "0%",IDC_PERCENT,176,118,17,8
+END
+
+IDD_BASIC_MODULE DIALOG DISCARDABLE  0, 0, 289, 150
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "模块信息"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "关闭",IDOK,223,8,60,11
+    CONTROL         "List1",IDC_MODULE_LIST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,7,7,211,136
+    PUSHBUTTON      "刷新",IDC_REFRESH_BUTTON,223,24,60,11
+    PUSHBUTTON      "卸载",IDC_SOFT_BUTTON,223,42,60,11
+    PUSHBUTTON      "卸载所有该模块",IDC_FORCEALL_BUTTON,223,83,60,11,
+                    BS_MULTILINE
+    PUSHBUTTON      "强制卸载",IDC_FORCE_BUTTON,223,62,60,11
+END
+
+IDD_PROTECT_SERVICE DIALOG DISCARDABLE  0, 0, 445, 338
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Win32服务"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_SERVICE_LIST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,7,7,431,324
+END
+
+IDD_PROTECT_AUTORUN DIALOG DISCARDABLE  0, 0, 235, 156
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "启动项管理 "
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_AUTORUN_LIST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,7,7,221,142
+END
+
+IDD_PROTECT_HOSTS DIALOG DISCARDABLE  0, 0, 235, 156
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "HOSTS文件"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_HOSTS_LIST,"SysListView32",LVS_LIST | 
+                    WS_BORDER | WS_TABSTOP,7,7,221,142
+END
+
+IDD_EDITHOSTS DIALOG DISCARDABLE  0, 0, 161, 77
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "HOSTS编辑"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,24,58,46,11
+    PUSHBUTTON      "取消",IDCANCEL,80,58,46,11
+    CONTROL         "这是一个注释行",IDC_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,45,72,10
+    LTEXT           "IP地址：",IDC_STATIC,13,11,32,8
+    CONTROL         "IPAddress1",IDC_IPADDRESS,"SysIPAddress32",WS_TABSTOP,
+                    51,10,100,11
+    EDITTEXT        IDC_DOMAIN,51,29,100,12,ES_AUTOHSCROLL
+    LTEXT           "域  名：",IDC_STATIC,14,29,29,8
+END
+
+IDD_ADVANCESETTING_DIALOG DIALOG DISCARDABLE  0, 0, 500, 303
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "智能主动防御系统-高级设置"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "主机信息",IDC_STATIC,165,5,328,291
+    LTEXT           "主机IP:",IDC_STATIC,173,20,32,10
+    GROUPBOX        "操作系统",IDC_STATIC,164,36,322,40
+    LTEXT           "操作系统:",IDC_STATIC,175,53,34,8
+    COMBOBOX        IDC_OSLIST,212,50,265,246,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "端口列表",IDC_STATIC,169,83,318,129
+    CONTROL         "接受ICMP数据包",IDC_ICMPACCEPT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,169,279,91,10
+    CONTROL         "List1",IDC_PORTLIST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,171,91,314,115
+    PUSHBUTTON      "添加",IDC_ADDPORT,364,254,50,14
+    GROUPBOX        "添加端口",IDC_STATIC,169,211,318,60
+    LTEXT           "端口号:",IDC_STATIC,177,233,27,8
+    EDITTEXT        IDC_PORTNUM,207,230,40,14,ES_AUTOHSCROLL
+    LTEXT           "协议:",IDC_STATIC,258,233,20,8
+    COMBOBOX        IDC_PROTOCOLLIST,282,230,48,37,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "状态：",IDC_STATIC,340,232,25,8
+    COMBOBOX        IDC_STATELIST,366,229,48,41,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "脚 本:",IDC_STATIC,179,254,24,8
+    COMBOBOX        IDC_SCRIPTLIST,207,252,121,44,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "保存",IDC_SAVEHOST,421,277,50,14
+    CONTROL         "IPAddress1",IDC_IPADDRESS,"SysIPAddress32",WS_TABSTOP,
+                    207,18,100,15
+    PUSHBUTTON      "添加主机",IDC_ADDHOST,363,277,50,14
+    CONTROL         "List1",IDC_IPLIST,"SysListView32",LVS_LIST | WS_BORDER | 
+                    WS_TABSTOP,13,16,147,280
+END
+
+IDD_DANGER DIALOG DISCARDABLE  0, 0, 168, 192
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "智能主动防御系统-危险提示"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_INFO_ETIT,10,46,139,32,ES_MULTILINE | WS_VSCROLL
+    CONTROL         "结束执行该操作的进程",IDC_END_BUTTON,"Button",
+                    BS_AUTORADIOBUTTON,20,86,96,10
+    CONTROL         "阻止该操作",IDC_REFUSE_BUTTON,"Button",
+                    BS_AUTORADIOBUTTON,20,101,56,10
+    CONTROL         "添加到白名单",IDC_ADD_BUTTON,"Button",
+                    BS_AUTORADIOBUTTON,20,130,64,10
+    CONTROL         "允许该操作执行",IDC_IGNORE_BUTTON,"Button",
+                    BS_AUTORADIOBUTTON,20,115,72,10
+    DEFPUSHBUTTON   "确定",IDOK,46,145,50,14
+    CONTROL         "Static",IDC_INFO_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,13,14,132,24
+END
+
+IDD_PROTECT_DIALOG DIALOG DISCARDABLE  0, 0, 356, 254
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "智能主动防御-主机防御"
+FONT 10, "System"
+BEGIN
+    CONTROL         "List1",IDC_PROTECT_LIST,"SysListView32",WS_BORDER | 
+                    WS_TABSTOP,7,7,342,192
+    LTEXT           "注册表项:",IDC_STATIC,14,208,35,8
+    LTEXT           "信       息:",IDC_STATIC,16,230,36,8
+    EDITTEXT        IDC_PROTECT_EDIT,56,206,169,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PROTECT_EDIT2,56,227,169,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "添加",IDC_ADD_BUTTON,260,204,50,11
+    PUSHBUTTON      "删除",IDC_DELETE_BUTTON,261,227,50,11
+END
+
+IDD_WHITE_DIALOG DIALOG DISCARDABLE  0, 0, 234, 160
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "智能主动防御-主机防御"
+FONT 10, "System"
+BEGIN
+    CONTROL         "List1",IDC_INFO_LIST,"SysListView32",WS_BORDER | 
+                    WS_TABSTOP,7,7,220,102
+    LTEXT           "进程名:",IDC_STATIC,17,118,29,8
+    LTEXT           "动    作:",IDC_STATIC,18,137,27,8
+    EDITTEXT        IDC_PROC_EDIT,52,116,94,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACT_EDIT,52,135,94,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "添加",IDC_ADD_BUTTON,161,116,50,10
+    PUSHBUTTON      "删除",IDC_DELETE_BUTTON,161,135,50,11
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "智能主动防御系统\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Defender\0"
+            VALUE "LegalCopyright", "西安电子科技大学 版权所有 (C) 2008\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Defender.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "智能主动防御系统\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO MOVEABLE PURE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_PROTECT_SET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 494
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 294
+    END
+
+    IDD_BASIC_PROCESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 493
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 293
+    END
+
+    IDD_BASIC_CONNECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 493
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 293
+    END
+
+    IDD_BASIC_LOCAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 495
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 284
+    END
+
+    IDD_PROTECT_NETLOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 493
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 293
+    END
+
+    IDD_BASIC_MODULE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 286
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+
+    IDD_PROTECT_SERVICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 438
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 331
+    END
+
+    IDD_PROTECT_AUTORUN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_PROTECT_HOSTS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_EDITHOSTS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 154
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 70
+    END
+
+    IDD_ADVANCESETTING_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 493
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 296
+    END
+
+    IDD_DANGER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 161
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 185
+    END
+
+    IDD_PROTECT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 349
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 247
+    END
+
+    IDD_WHITE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 227
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 153
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Defender\n\nDefend\n\n\nDefender.Document\nDefend Document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Defender"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+    IDS_MYSTATUS            "OK1222222222222222222222222222222222222222222222222333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDM_HELP                "Hello\n帮助"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDM_SET                 "Hello\n帮助"
+    IDM_LOG                 "Hello\n帮助"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDM_PROTECT             "Hello\n帮助"
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Defender.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#include "l.chs\afxprint.rc"        // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

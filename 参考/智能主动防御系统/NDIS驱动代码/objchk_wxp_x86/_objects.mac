@@ -1,0 +1,54 @@
+MUI_386_OBJECTS= \
+    $(_OBJ_DIR)\i386\passthru.res
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\passthru.res \
+    $(_OBJ_DIR)\i386\hashlink.obj \
+    $(_OBJ_DIR)\i386\md5.obj \
+    $(_OBJ_DIR)\i386\filter.obj \
+    $(_OBJ_DIR)\i386\hostlist.obj \
+    $(_OBJ_DIR)\i386\miniport.obj \
+    $(_OBJ_DIR)\i386\passthru.obj \
+    $(_OBJ_DIR)\i386\protocol.obj
+
+MUI_IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\passthru.res
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\passthru.res \
+    $(_OBJ_DIR)\ia64\hashlink.obj \
+    $(_OBJ_DIR)\ia64\md5.obj \
+    $(_OBJ_DIR)\ia64\filter.obj \
+    $(_OBJ_DIR)\ia64\hostlist.obj \
+    $(_OBJ_DIR)\ia64\miniport.obj \
+    $(_OBJ_DIR)\ia64\passthru.obj \
+    $(_OBJ_DIR)\ia64\protocol.obj
+
+MUI_AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\passthru.res
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\passthru.res \
+    $(_OBJ_DIR)\amd64\hashlink.obj \
+    $(_OBJ_DIR)\amd64\md5.obj \
+    $(_OBJ_DIR)\amd64\filter.obj \
+    $(_OBJ_DIR)\amd64\hostlist.obj \
+    $(_OBJ_DIR)\amd64\miniport.obj \
+    $(_OBJ_DIR)\amd64\passthru.obj \
+    $(_OBJ_DIR)\amd64\protocol.obj
+
+MUI_ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\passthru.res
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\passthru.res \
+    $(_OBJ_DIR)\arm\hashlink.obj \
+    $(_OBJ_DIR)\arm\md5.obj \
+    $(_OBJ_DIR)\arm\filter.obj \
+    $(_OBJ_DIR)\arm\hostlist.obj \
+    $(_OBJ_DIR)\arm\miniport.obj \
+    $(_OBJ_DIR)\arm\passthru.obj \
+    $(_OBJ_DIR)\arm\protocol.obj
+
+PRECOMPILED_INCLUDE_BASENAME=precomp.h
+

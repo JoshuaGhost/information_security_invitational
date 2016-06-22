@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Server: IADS 1.0 XiDian
+Date: Fri, 15 Aug 2008 07:44:11 GMT
+Connection: Keep-Alive
+Content-Type: text/html
+Last-Modified: Sun, 15 Aug 2008 07:38:18 GMT
+Content-Length: 409
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>智能主动防御系统</title>
+</head>
+<body>
+<p>智能主动防御系统是一个全方位的主机防护软件。
+<p>与普通的主机防护软件相比它具有以下特点：
+<ul>
+<li>防御未知入侵: 系统能够通过自主学习实现防御未知入侵。</li>
+<li>防御未知病毒: 摒弃野蛮的病毒扫描模式，采用主动防御技术拦截程序的危险行为。</li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,285 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Defender - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/Defender.res" /d "NDEBUG" "D:\Defender825\Defender.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/Defender.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Defender825\basic\ado.cpp"
+"D:\Defender825\AdvanceSetting.cpp"
+"D:\Defender825\AutorunPage.cpp"
+"D:\Defender825\BasicSheet.cpp"
+"D:\Defender825\net\collection.cpp"
+"D:\Defender825\ConnectPage.cpp"
+"D:\Defender825\DangerDlg.cpp"
+"D:\Defender825\Defender.cpp"
+"D:\Defender825\DefenderDoc.cpp"
+"D:\Defender825\DefenderView.cpp"
+"D:\Defender825\EdithostsDlg.cpp"
+"D:\Defender825\HostsPage.cpp"
+"D:\Defender825\LoadcodeDlg.cpp"
+"D:\Defender825\LocalPage.cpp"
+"D:\Defender825\LogSheet.cpp"
+"D:\Defender825\MainFrm.cpp"
+"D:\Defender825\net\md5.cpp"
+"D:\Defender825\ModuleDlg.cpp"
+"D:\Defender825\NetlogPage.cpp"
+"D:\Defender825\net\Packet.cpp"
+"D:\Defender825\ProcessPage.cpp"
+"D:\Defender825\ProtectFile.cpp"
+"D:\Defender825\ProtectSetPage.cpp"
+"D:\Defender825\ProtectSheet.cpp"
+"D:\Defender825\ServicePage.cpp"
+"D:\Defender825\SetSheet.cpp"
+"D:\Defender825\SystemImageList.cpp"
+"D:\Defender825\WhiteFile.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP15.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/Defender.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Defender825\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP15.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP16.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Defender.pdb" /machine:I386 /out:"Release/Defender.exe" 
+.\Release\ado.obj
+.\Release\AdvanceSetting.obj
+.\Release\AutorunPage.obj
+.\Release\BasicSheet.obj
+.\Release\collection.obj
+.\Release\ConnectPage.obj
+.\Release\DangerDlg.obj
+.\Release\Defender.obj
+.\Release\DefenderDoc.obj
+.\Release\DefenderView.obj
+.\Release\EdithostsDlg.obj
+.\Release\HostsPage.obj
+.\Release\LoadcodeDlg.obj
+.\Release\LocalPage.obj
+.\Release\LogSheet.obj
+.\Release\MainFrm.obj
+.\Release\md5.obj
+.\Release\ModuleDlg.obj
+.\Release\NetlogPage.obj
+.\Release\Packet.obj
+.\Release\ProcessPage.obj
+.\Release\ProtectFile.obj
+.\Release\ProtectSetPage.obj
+.\Release\ProtectSheet.obj
+.\Release\ServicePage.obj
+.\Release\SetSheet.obj
+.\Release\StdAfx.obj
+.\Release\SystemImageList.obj
+.\Release\WhiteFile.obj
+.\Release\Defender.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP16.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ado.cpp
+AdvanceSetting.cpp
+AutorunPage.cpp
+BasicSheet.cpp
+collection.cpp
+ConnectPage.cpp
+DangerDlg.cpp
+Defender.cpp
+DefenderDoc.cpp
+DefenderView.cpp
+EdithostsDlg.cpp
+HostsPage.cpp
+LoadcodeDlg.cpp
+LocalPage.cpp
+LogSheet.cpp
+MainFrm.cpp
+md5.cpp
+ModuleDlg.cpp
+NetlogPage.cpp
+Packet.cpp
+Generating Code...
+Compiling...
+ProcessPage.cpp
+ProtectFile.cpp
+ProtectSetPage.cpp
+ProtectSheet.cpp
+ServicePage.cpp
+SetSheet.cpp
+SystemImageList.cpp
+WhiteFile.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP18.tmp" with contents
+[
+/nologo /o"Release/Defender.bsc" 
+.\Release\StdAfx.sbr
+.\Release\ado.sbr
+.\Release\AdvanceSetting.sbr
+.\Release\AutorunPage.sbr
+.\Release\BasicSheet.sbr
+.\Release\collection.sbr
+.\Release\ConnectPage.sbr
+.\Release\DangerDlg.sbr
+.\Release\Defender.sbr
+.\Release\DefenderDoc.sbr
+.\Release\DefenderView.sbr
+.\Release\EdithostsDlg.sbr
+.\Release\HostsPage.sbr
+.\Release\LoadcodeDlg.sbr
+.\Release\LocalPage.sbr
+.\Release\LogSheet.sbr
+.\Release\MainFrm.sbr
+.\Release\md5.sbr
+.\Release\ModuleDlg.sbr
+.\Release\NetlogPage.sbr
+.\Release\Packet.sbr
+.\Release\ProcessPage.sbr
+.\Release\ProtectFile.sbr
+.\Release\ProtectSetPage.sbr
+.\Release\ProtectSheet.sbr
+.\Release\ServicePage.sbr
+.\Release\SetSheet.sbr
+.\Release\SystemImageList.sbr
+.\Release\WhiteFile.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP18.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Defender.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Defender - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Defender.res" /d "_DEBUG" "D:\Defender825\Defender.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Defender.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Defender825\basic\ado.cpp"
+"D:\Defender825\AdvanceSetting.cpp"
+"D:\Defender825\AutorunPage.cpp"
+"D:\Defender825\BasicSheet.cpp"
+"D:\Defender825\net\collection.cpp"
+"D:\Defender825\ConnectPage.cpp"
+"D:\Defender825\DangerDlg.cpp"
+"D:\Defender825\Defender.cpp"
+"D:\Defender825\DefenderDoc.cpp"
+"D:\Defender825\DefenderView.cpp"
+"D:\Defender825\EdithostsDlg.cpp"
+"D:\Defender825\HostsPage.cpp"
+"D:\Defender825\LoadcodeDlg.cpp"
+"D:\Defender825\LocalPage.cpp"
+"D:\Defender825\LogSheet.cpp"
+"D:\Defender825\MainFrm.cpp"
+"D:\Defender825\net\md5.cpp"
+"D:\Defender825\ModuleDlg.cpp"
+"D:\Defender825\NetlogPage.cpp"
+"D:\Defender825\net\Packet.cpp"
+"D:\Defender825\ProcessPage.cpp"
+"D:\Defender825\ProtectFile.cpp"
+"D:\Defender825\ProtectSetPage.cpp"
+"D:\Defender825\ProtectSheet.cpp"
+"D:\Defender825\ServicePage.cpp"
+"D:\Defender825\SetSheet.cpp"
+"D:\Defender825\SystemImageList.cpp"
+"D:\Defender825\WhiteFile.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Defender.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Defender825\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1B.tmp" with contents
+[
+ws2_32.lib Psapi.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Defender.pdb" /debug /machine:I386 /out:"Debug/Defender.exe" /pdbtype:sept 
+.\Debug\ado.obj
+.\Debug\AdvanceSetting.obj
+.\Debug\AutorunPage.obj
+.\Debug\BasicSheet.obj
+.\Debug\collection.obj
+.\Debug\ConnectPage.obj
+.\Debug\DangerDlg.obj
+.\Debug\Defender.obj
+.\Debug\DefenderDoc.obj
+.\Debug\DefenderView.obj
+.\Debug\EdithostsDlg.obj
+.\Debug\HostsPage.obj
+.\Debug\LoadcodeDlg.obj
+.\Debug\LocalPage.obj
+.\Debug\LogSheet.obj
+.\Debug\MainFrm.obj
+.\Debug\md5.obj
+.\Debug\ModuleDlg.obj
+.\Debug\NetlogPage.obj
+.\Debug\Packet.obj
+.\Debug\ProcessPage.obj
+.\Debug\ProtectFile.obj
+.\Debug\ProtectSetPage.obj
+.\Debug\ProtectSheet.obj
+.\Debug\ServicePage.obj
+.\Debug\SetSheet.obj
+.\Debug\StdAfx.obj
+.\Debug\SystemImageList.obj
+.\Debug\WhiteFile.obj
+.\Debug\Defender.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ado.cpp
+AdvanceSetting.cpp
+AutorunPage.cpp
+BasicSheet.cpp
+collection.cpp
+ConnectPage.cpp
+DangerDlg.cpp
+Defender.cpp
+DefenderDoc.cpp
+DefenderView.cpp
+EdithostsDlg.cpp
+HostsPage.cpp
+LoadcodeDlg.cpp
+LocalPage.cpp
+LogSheet.cpp
+MainFrm.cpp
+D:\Defender825\MainFrm.cpp(399) : warning C4390: ';' : empty controlled statement found; is this the intent?
+md5.cpp
+ModuleDlg.cpp
+NetlogPage.cpp
+Packet.cpp
+Generating Code...
+Compiling...
+ProcessPage.cpp
+ProtectFile.cpp
+ProtectSetPage.cpp
+ProtectSheet.cpp
+ServicePage.cpp
+SetSheet.cpp
+SystemImageList.cpp
+WhiteFile.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Defender.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

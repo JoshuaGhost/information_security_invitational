@@ -1,0 +1,1 @@
+NDIS_STATUS FilterPacket(IN PNDIS_PACKET Packet);

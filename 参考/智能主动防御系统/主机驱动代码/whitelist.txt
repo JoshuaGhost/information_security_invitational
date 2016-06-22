@@ -1,0 +1,8 @@
+SYSTEM	all
+EXPLORER	CreateProcess
+SVCHOST	all
+CTFMON	CreateProcess
+LSASS	all
+CSRSS	all
+WINLOGOM	all
+ANTI	all

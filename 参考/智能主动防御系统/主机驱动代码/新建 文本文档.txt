@@ -1,0 +1,2 @@
+GetProcessImageName(PathName,hHandle);
+char PathName[MAXPATHLEN];
